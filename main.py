@@ -24,9 +24,6 @@ def get_book_text(file_path):
     #except IOError as e:
     #    print(f"Error: Could not read file '{file_path}'. #Reason: {e}")
     #    return None
-    #if len(sys.argv) < 2:
-    #    print("Usage: python3 main.py <path to book>")
-    #    sys.exit(1) # Exit with an error code
     try:
         with open(file_path, "r") as f:
             content = f.read()
